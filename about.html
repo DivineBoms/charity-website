@@ -1,0 +1,476 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Charity website</title>
+    <link rel="apple-touch-icon" sizes="180x180" href="img/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="img/">
+    <link rel="icon" type="image/png" sizes="16x16" href="img/">
+      <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet">
+      <script src="https://kit.fontawesome.com/cecd2c945d.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+	<link rel="stylesheet" href="css/fancybox.css">
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <div class="wrapper">
+
+      <!--================ Offcanvus Menu Area =================-->
+	<div class="side_menu">
+		<div class="logo">
+			<a href="index.html">
+				<h1>HopeHarbor</h1>
+			</a>
+		</div>
+		<ul class="list menu-left">
+			<li><a href="index.html">Home</a></li>
+			<li><a href="about.html">About</a></li>
+			<li><a href="volunteer.html">Volunteer</a></li>
+			<li><a href="causes.html">Causes</a></li>
+			<li><a href="contact.html">Contact</a></li>
+		</ul>
+	</div>
+	<!--================ End Offcanvus Menu Area =================-->
+
+	<!--================ Canvus Menu Area =================-->
+	<div class="canvus_menu">
+		<div class="container">
+			<div class="toggle_icon" title="Menu Bar">
+				<span></span>
+			</div>
+		</div>
+	</div>
+	<!--================ End Canvus Menu Area =================-->
+
+	<section class="top-btn-area">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-12">
+					<a href="#donate" class="main_btn" data-toggle="modal" data-target="#exampleModalCenter">
+						Donate
+						<img src="img/next.png" alt="">
+					</a>
+					<div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+						<div class="modal-dialog modal-dialog-centered" role="document">
+						  <div class="modal-content">
+							<div class="modal-header">
+							  <h5 class="modal-title" id="exampleModalLongTitle">Donate</h5>
+							</div>
+							
+							  <div class="modal-body text-center" style="width: 100%;">
+								<form action="#" class="appointment">
+									<div class="row">
+										<div class="col-md-12">
+											<div class="form-group">
+												<label for="name">Full Name</label>
+												<div class="input-wrap">
+													<div class="icon"><span class="fa fa-user"></span></div>
+													<input type="text" class="form-control" placeholder="">
+												</div>
+											</div>
+										</div>
+										<div class="col-md-12">
+											<div class="form-group">
+												<label for="name">Email Address</label>
+												<div class="input-wrap">
+													<div class="icon"><span class="fa fa-paper-plane"></span></div>
+													<input type="email" class="form-control" placeholder="">
+												</div>
+											</div>
+										</div>
+										<div class="col-md-12">
+											<div class="form-group">
+												<label for="name">Select Causes</label>
+												<div class="form-field">
+													<div class="select-wrap">
+														<div class="icon"><span class="fa fa-chevron-down"></span></div>
+														<select name="" id="" class="form-control">
+															<option value=""></option>
+															<option value="">House Washing</option>
+															<option value="">Roof Cleaning</option>
+															<option value="">Driveway Cleaning</option>
+															<option value="">Gutter Cleaning</option>
+															<option value="">Patio Cleaning</option>
+															<option value="">Building Cleaning</option>
+															<option value="">Concrete Cleaning</option>
+															<option value="">Sidewal Cleaning</option>
+														</select>
+													</div>
+												</div>
+											</div>
+										</div>
+										<div class="col-md-12">
+											<div class="form-group">
+												<label for="name">Amount</label>
+												<div class="input-wrap">
+													<div class="icon"><span class="fa fa-money"></span></div>
+													<input type="text" class="form-control" placeholder="$5">
+												</div>
+											</div>
+										</div>
+										<div class="col-md-12">
+											<div class="form-group">
+												<label for="name">Payment Method</label>
+												<div class="d-lg-flex">
+													<div class="form-radio mr-3">
+														<div class="radio">
+															<label>
+																<input type="radio" name="radio-input" checked>
+																<span class="checkmark"></span>
+																<span class="fill-control-description">Credit Card</span>
+															</label>
+														</div>
+													</div>
+													<div class="form-radio mr-3">
+														<div class="radio">
+															<label>
+																<input type="radio" name="radio-input">
+																<span class="checkmark"></span>
+																<span class="fill-control-description">Paypal</span>
+															</label>
+														</div>
+													</div>
+													<div class="form-radio">
+														<div class="radio">
+															<label>
+																<input type="radio" name="radio-input">
+																<span class="checkmark"></span>
+																<span class="fill-control-description">Payoneer</span>
+															</label>
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+										<div class="col-md-12">
+											<div class="form-group">
+												<input type="submit" value="Donate Now" class="main_btn2">
+											</div>
+										</div>
+									</div>
+								</form>
+							  </div>
+						   
+							<div class="modal-footer">
+							  <button type="button" class="main_btn" data-dismiss="modal">Close</button>
+							</div>
+						  </div>
+						</div>
+					  </div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section class="hero-wrap hero-wrap-2" style="background-image: url('img/moroccan-flower-dark.png');   background-attachment: fixed;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;" data-stellar-background-ratio="0.5">
+		<div class="overlay"></div>
+		<div class="container">
+			<div class="row no-gutters slider-text align-items-end justify-content-start">
+				<div class="col-md-9 ftco-animate pb-5">
+					<p class="breadcrumbs"><span class="mr-2"><a href="index.html">Home <i class="fa fa-chevron-right"></i></a></span> <span>About Us <i class="fa fa-chevron-right"></i></span></p>
+					<h1 class="mb-3 bread">About Us</h1>
+				</div>
+			</div>
+		</div>
+	</section>
+
+
+
+
+
+
+
+
+ 
+    <!-- about section start -->
+	<section class="ftco-appointment ftco-section ftco-no-pt ftco-no-pb img pt-160 pb-160" id="donate" >
+		<div class="overlay"></div>
+		<div class="container">
+			<div class="row">
+				<div class="col-md-5 order-md-last d-flex align-items-stretch">
+					<img src="img/about-img.png" alt="">
+				</div>
+				<div class="col-md-7 wrap-about py-5">
+					<div class="heading-section pr-md-5 pt-md-5">
+						<span class="subheading">Welcome to HopeHarbor</span>
+						<h2 class="mb-4">We are here to help everyone in need</h2>
+						<p>On her way she met a copy. The copy warned the Little Blind Text, that where it came from it would have been rewritten a thousand times and everything that was left from its origin would be the word "and" and the Little Blind Text should turn around and return to its own, safe country. But nothing the copy said could convince her and so it didn’t take long until a few insidious Copy Writers ambushed her, made her drunk with Longe and Parole and dragged her into their agency, where they abused her for their.</p>
+					</div>
+					<div class="row my-md-5">
+						<div class="col-md-6 d-flex counter-wrap">
+							<div class="block-18 d-flex">
+								<div class="icon d-flex align-items-center justify-content-center">
+									<i class="fas fa-hands-helping"></i>
+								</div>
+								<div class="desc">
+									<div class="text">
+										<strong class="number" data-number="50">0</strong>
+									</div>
+									<div class="text">
+										<span>Volunteers</span>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-6 d-flex counter-wrap">
+							<div class="block-18 d-flex">
+								<div class="icon d-flex align-items-center justify-content-center">
+									<i class="fas fa-piggy-bank"></i>
+								</div>
+								<div class="desc">
+									<div class="text">
+										<strong class="number" data-number="24400">0</strong>
+									</div>
+									<div class="text">
+										<span>Trusted Funds</span>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+						<a href="#" class="main_btn">
+							BECOME A VOLUNTEER
+							<img src="img/next.png" alt="">
+						</a>
+					
+				</div>
+			</div>
+		</div>
+	</section>
+	 <!-- about section end -->
+
+
+ <!--================ video Area  =================-->
+ <section class="video-section set-bg">
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-12">
+				<div class="video-text">
+					<h2>Lend A Helping Hand</h2>
+					<p>Help Homeless People And Children Across The World</p>
+					<a href="https://www.youtube.com/embed/vhLytuJWuio" data-fancybox class="play-btn heartbeat"><img
+							src="img/play.png" alt=""></a>
+				</div>
+				
+			</div>
+		</div>
+	</div>
+</section>
+ <!--================ video Area  =================-->
+
+
+
+ <section class="ftco-counter" id="section-counter">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-3 mb-5 mb-md-0 text-center text-md-left">
+				<h2 class="font-weight-bold" style="color: #fff; font-size: 22px;">We're on a mission to help all your problems</h2>
+			</div>
+			<div class="col-md-9">
+				<div class="row">
+					<div class="col-md-6 col-lg-3 d-flex justify-content-center counter-wrap ftco-animate">
+						<div class="block-18 text-center">
+							<div class="text">
+								<strong class="number" data-number="88984">0</strong>
+							</div>
+							<div class="text">
+								<span>Donation Campaigns are running</span>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-6 col-lg-3 d-flex justify-content-center counter-wrap ftco-animate">
+						<div class="block-18 text-center">
+							<div class="text">
+								<strong class="number" data-number="65000">0</strong>
+							</div>
+							<div class="text">
+								<span>Professional and kind volunteers</span>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-6 col-lg-3 d-flex justify-content-center counter-wrap ftco-animate">
+						<div class="block-18 text-center">
+							<div class="text">
+								<strong class="number" data-number="77000">0</strong>
+							</div>
+							<div class="text">
+								<span>Funds we raised till now on site</span>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-6 col-lg-3 d-flex justify-content-center counter-wrap ftco-animate">
+						<div class="block-18 text-center">
+							<div class="text">
+								<strong class="number" data-number="50">0</strong>
+							</div>
+							<div class="text">
+								<span>Dedicated Donors</span>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+
+ 
+
+  <!-- donate section start -->
+  <section class="donate_section layout_padding">
+	<div class="container">
+		<div class="row justify-content-center">
+			<div class="col-xl-6 col-lg-7 col-md-10 col-sm-10">
+				<!-- Section Tittle -->
+				<div class="section_title text-center mb-55">
+					<h3><span>Our Donat Review</span></h3>
+				</div>
+			</div>
+		</div>
+	   <div class="donate_taital_main">
+		  <div id="main_slider" class="carousel slide" data-ride="carousel">
+			 <div class="carousel-inner">
+				<div class="carousel-item active">
+				   <div class="donate_left">
+					  <div class="client_img"><img src="img/client-img.png"></div>
+				   </div>
+				   <div class="donate_right">
+					  <h3 class="client_name_text">Mardo Merk</h3>
+					  <p class="dummy_text">If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefinedIf you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined</p>
+				   </div>
+				</div>
+				<div class="carousel-item">
+				   <div class="donate_left">
+					  <div class="client_img"><img src="img/client-img.png"></div>
+				   </div>
+				   <div class="donate_right">
+					  <h3 class="client_name_text">Mardo Merk</h3>
+					  <p class="dummy_text">If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefinedIf you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined</p>
+				   </div>
+				</div>
+				<div class="carousel-item">
+				   <div class="donate_left">
+					  <div class="client_img"><img src="img/client-img.png"></div>
+				   </div>
+				   <div class="donate_right">
+					  <h3 class="client_name_text">Mardo Merk</h3>
+					  <p class="dummy_text">If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefinedIf you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined</p>
+				   </div>
+				</div>
+			 </div>
+			 <a class="carousel-control-next" href="#main_slider" role="button" data-slide="next">
+			 <i class="fa fa-angle-right"></i>
+			 </a>
+			 <a class="carousel-control-prev" href="#main_slider" role="button" data-slide="prev">
+			 <i class="fa fa-angle-left"></i>
+			 </a>
+		  </div>
+	   </div>
+	</div>
+ </section>
+ <!-- donate section end -->
+
+
+ 
+
+ <!-- footer section start -->
+ <div class="footer_section layout_padding">
+	<div class="container">
+	   <div class="row">
+		  <div class="col-sm-6 col-md-6 col-lg-3">
+			 <div class="footer_logo"><h1>HopeHarbor</h1></div>
+		  </div>
+		  <div class="col-sm-6 col-md-6 col-lg-3">
+			 <h4 class="footer_taital">NAVIGATION</h4>
+			 <div class="footer_menu_main">
+				<div class="footer_menu_left">
+				   <div class="footer_menu">
+					  <ul>
+						 <li><a href="index.html">Home</a></li>
+						 <li><a href="donate.html">Donate</a></li>
+						 <li><a href="contact.html">Contact us</a></li>
+					  </ul>
+				   </div>
+				</div>
+				<div class="footer_menu_right">
+				   <div class="footer_menu">
+					  <ul>
+						 <li><a href="about.html">About</a></li>
+						 <li><a href="news.html">News</a></li>
+						 <li><a href="mission.html">Our Mission</a></li>
+					  </ul>
+				   </div>
+				</div>
+			 </div>
+		  </div>
+		  <div class="col-sm-6 col-md-6 col-lg-3">
+			 <h4 class="footer_taital">NEWS</h4>
+			 <p class="footer_text">Generators on the Internet</p>
+			 <p class="footer_text">Tend to repeat predefined</p>
+			 <p class="footer_text">Chunks as necessary, making</p>
+		  </div>
+		  <div class="col-sm-6 col-md-6 col-lg-3">
+			<h4 class="footer_taital">address</h4>
+			<p class="footer_text">856, Washington</p>
+			<p class="footer_text">+01 1234567890</p>
+			<p class="footer_text">HopeHarbor@gmail.com</p>
+		 </div>
+	   </div>
+	   <div class="footer_section_2">
+		  <div class="row">
+			 <div class="col-sm-4 col-md-4 col-lg-3">
+				<div class="social_icon">
+				  <div class="icon facebook">
+					<span><i class="fab fa-facebook"></i></span>
+				  </div>
+				  <div class="icon twitter">
+					<span><i class="fab fa-twitter"></i></span>
+				  </div>
+				  <div class="icon instagram">
+					<span><i class="fab fa-instagram"></i></span>
+				  </div>
+				</div>
+			 </div>
+			 <div class="col-sm-8 col-md-8 col-lg-9">
+				<input type="text" class="address_text" placeholder="Enter your Email" name="text">
+				<button type="button" class="get_bt">SUBSCRIBE</button>
+			 </div>
+		  </div>
+	   </div>
+	</div>
+ </div>
+ <!-- footer section end -->
+ <!-- copyright section start -->
+ <div class="copyright_section">
+	<div class="container">
+	   <p class="copyright_text">2020 All Rights Reserved. Design by <a href="">Blaqcoder Developer</a></p>
+	</div>
+ </div>
+ <!-- copyright section end -->
+
+    </div>
+	 <!-- tooggle theme -->
+	 <div class="toggle-theme">
+		<i class="fas"></i>
+	  </div>
+	  
+	  <!-- tooggle theme -->
+	  
+          <!-- Scripts -->
+  <!-- Bootstrap core JavaScript --> 
+   <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.js"></script>
+   <script src="js/jquery.waypoints.min.js"></script>
+   <script src="js/jquery.animateNumber.min.js"></script>
+   <script src="js/fancybox.js"></script>
+   <script src="js/main.js"></script>
+   <script src="js/dark.js"></script>
+   </body>
+ </html>
+ 
